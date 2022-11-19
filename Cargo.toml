@@ -1,0 +1,6 @@
+
+[workspace]
+members = [
+  "register-interface-macros",
+  "register-interface-tests"
+]

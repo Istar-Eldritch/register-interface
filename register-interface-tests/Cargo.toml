@@ -1,0 +1,8 @@
+[package]
+name = "register-interface-tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.register-interface]
+version = "0.1.0"
+path = "../register-interface-macros"

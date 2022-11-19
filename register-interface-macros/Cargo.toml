@@ -1,0 +1,19 @@
+[package]
+name = "register-interface"
+version = "0.1.0"
+edition = "2021"
+description = "A register interface, bitfield and memory mapping library"
+license = "MIT"
+keywords = ["register", "bitfield", "drivers", "memory-map"]
+categories = ["embedded", "hardware-support", "memory-management", "no-std"]
+readme = "../README.md"
+repository = "https://github.com/Istar-Eldritch/register-interface"
+
+[lib]
+proc-macro = true
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "1.0.39"
+quote = "1.0.18"
+syn = { version = "1.0.96", features=["full"] }
